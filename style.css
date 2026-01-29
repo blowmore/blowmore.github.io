@@ -9,5 +9,6 @@ body {
   justify-content: center;
 
   text-align: center;
-}
 
+  font-family: system-ui, sans-serif;
+}
