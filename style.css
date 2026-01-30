@@ -7,12 +7,13 @@ body {
 #banner {
     text-align: center;
     background: #FFFFFF;
-    margin: 0em auto;
+
+    width: calc(100% - 2rem);
+    max-width: 50em;
+
+    margin: 1em auto;
     padding: 1em;
-    width: 50em;
-    /*border: thin solid;*/
-    /*border-color: #888888;*/
-    /*box-shadow: 0 0.1em 0.3em #888888;*/
+    box-sizing: border-box;
     border-radius: 1.5em;
 }
 
