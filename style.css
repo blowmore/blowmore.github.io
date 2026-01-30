@@ -1,14 +1,74 @@
 body {
-    margin: 0;
-    min-height: 100vh;
-
-    background-color: #A3C1AD;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    text-align: center;
-
     font-family: system-ui, sans-serif;
+    background: #A3C1AD;
+    color: #000000;
+}
+
+#banner {
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0em auto;
+    padding: 1em;
+    width: 50em;
+    /*border: thin solid;*/
+    /*border-color: #888888;*/
+    /*box-shadow: 0 0.1em 0.3em #888888;*/
+    border-radius: 1.5em;
+}
+
+#banner h1 {
+    margin: 20px 0 10px .05em;
+    /*text-shadow: 3px 3px 0 #bbbbbb;*/
+    font-size: 3em;
+}
+
+#banner h1>a {
+    color: #000000;
+    transition: none;
+}
+
+#banner h2 {
+    margin: 10px 0 40px .05em;
+    /*text-shadow: 1.5px 1.5px 0 #bdbdbd;*/
+    font-size: 1.5em;
+}
+
+#banner h2>a {
+    color: #000000;
+    transition: none;
+}
+
+#banner ul {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    list-style: none;
+}
+
+#banner li {
+    display: inline;
+    padding: 0 1em;
+}
+
+#banner li>a {
+    color: #696969;
+    white-space: nowrap;
+    font-size: 100%;
+}
+
+#banner li>a:hover,
+#banner li>a:active {
+    color: #000000;
+}
+
+a {
+    color: #3357D6;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+a:visited {
+    color: #865796;
+    text-decoration: none;
 }
