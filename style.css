@@ -8,8 +8,9 @@ body {
     text-align: center;
     background: #FFFFFF;
 
-    width: calc(100% - 2rem);
-    max-width: 50em;
+    width: 50em;
+    /*width: calc(100% - 2rem);*/
+    /*max-width: 50em;*/
 
     margin: 1em auto;
     padding: 1em;
@@ -18,7 +19,7 @@ body {
 }
 
 #banner h1 {
-    margin: 20px 0 10px .05em;
+    margin: 5px 0 5px .05em;
     /*text-shadow: 3px 3px 0 #bbbbbb;*/
     font-size: 3em;
 }
@@ -29,7 +30,7 @@ body {
 }
 
 #banner h2 {
-    margin: 10px 0 40px .05em;
+    margin: 5px 0 15px .05em;
     /*text-shadow: 1.5px 1.5px 0 #bdbdbd;*/
     font-size: 1.5em;
 }
