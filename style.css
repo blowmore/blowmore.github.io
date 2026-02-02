@@ -75,6 +75,29 @@ body {
     color: #000000;
 }
 
+#featured {
+    text-align: left;
+    background: #FFFFFF;
+
+    width: 50em;
+
+    margin: 1em auto;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 1.5em;
+}
+
+#featured li {
+    display: inline;
+    padding: 0 1em;
+}
+
+#featured li>a {
+    color: #696969;
+    white-space: nowrap;
+    font-size: 100%;
+}
+
 a {
     color: #3357D6;
     text-decoration: none;
