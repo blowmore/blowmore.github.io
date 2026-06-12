@@ -1,0 +1,22 @@
+title: blowmore
+header_title: blowmore.org
+subtitle: software that blows more
+url: "https://blowmore.org"
+baseurl: ""
+
+menu:
+  - id: home
+    label: home
+    url: /
+  - id: gsus
+    label: gsus
+    url: /category/gsus/about.html
+
+external_menu:
+  - label: moongoose
+    url: https://moongoose.dk
+  - label: github
+    url: https://github.com/blowmore
+
+exclude:
+  - README.md

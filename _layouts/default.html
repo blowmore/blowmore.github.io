@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="{{ '/images/favicon.png' | relative_url }}">
+    <title>{{ page.html_title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}" type="text/css">
+</head>
+
+<body id="{{ page.body_id | default: 'index' }}" class="{{ page.body_class | default: 'home' }}">
+    <div id="header">
+        <a href="{{ '/' | relative_url }}"><img src="{{ '/images/logo.svg' | relative_url }}" alt=""></a>
+        &nbsp;
+        <a id="headerLink" href="{{ '/' | relative_url }}"><b>{{ site.header_title }}</b></a>
+        <span class="hidden"> - </span>
+        <span id="headerSubtitle">{{ page.subtitle | default: site.subtitle }}</span>
+    </div>
+    <hr class="hidden" />
+    <div id="menu">
+        {% for item in site.menu %}
+        <a href="{{ item.url | relative_url }}">{% if item.id == page.active_menu %}<b>{{ item.label }}</b>{% else %}{{ item.label }}{% endif %}</a>
+        {% endfor %}
+        <span class="right">
+            {% for item in site.external_menu %}
+            <a href="{{ item.url }}">{{ item.label }}</a>
+            {% endfor %}
+        </span>
+    </div>
+    <hr class="hidden" />
+    <div id="content">
+        <div id="nav">
+            <ul>
+                {% for item in page.nav %}
+                <li><a href="{{ item.url | relative_url }}">{% if item.id == page.active_nav or item.active %}<b>{{ item.label }}</b>{% else %}{{ item.label }}{% endif %}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div id="main">
+            {{ content }}
+        </div>
+    </div>
+</body>
+
+</html>
