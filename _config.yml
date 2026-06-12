@@ -12,6 +12,19 @@ menu:
     label: gsus
     url: /gsus/about.html
 
+sidebars:
+  home:
+    - id: about
+      label: about
+      url: /index.html
+    - id: people
+      label: people
+      url: /people.html
+  gsus:
+    - id: about
+      label: about
+      url: /gsus/about.html
+
 external_menu:
   - label: github
     url: https://github.com/blowmore

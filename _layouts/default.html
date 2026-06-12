@@ -32,7 +32,8 @@
     <div id="content">
         <div id="nav">
             <ul>
-                {% for item in page.nav %}
+                {% assign nav_items = page.nav | default: site.sidebars[page.active_menu] %}
+                {% for item in nav_items %}
                 <li><a href="{{ item.url | relative_url }}">{% if item.id == page.active_nav or item.active %}<b>{{ item.label }}</b>{% else %}{{ item.label }}{% endif %}</a></li>
                 {% endfor %}
             </ul>

@@ -4,13 +4,6 @@ html_title: blowmore
 subtitle: software that blows more
 active_menu: home
 active_nav: about
-nav:
-  - id: about
-    label: about
-    url: /index.html
-  - id: people
-    label: people
-    url: /people.html
 ---
 # About
 
