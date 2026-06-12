@@ -13,8 +13,6 @@ menu:
     url: /gsus/about.html
 
 external_menu:
-  - label: moongoose
-    url: https://moongoose.dk
   - label: github
     url: https://github.com/blowmore
 

@@ -8,6 +8,9 @@ nav:
   - id: about
     label: about
     url: /index.html
+  - id: people
+    label: people
+    url: /people.html
 ---
 # About
 
