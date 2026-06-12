@@ -10,7 +10,7 @@ menu:
     url: /
   - id: gsus
     label: gsus
-    url: /category/gsus/about.html
+    url: /gsus/about.html
 
 external_menu:
   - label: moongoose
