@@ -8,6 +8,9 @@ menu:
   - id: home
     label: home
     url: /
+  - id: aslan
+    label: aslan
+    url: /gsus/aslan.html
   - id: gsus
     label: gsus
     url: /gsus/about.html
@@ -20,6 +23,10 @@ sidebars:
     - id: people
       label: people
       url: /people.html
+  aslan:
+    - id: about
+      label: about
+      url: /aslan/about.html
   gsus:
     - id: about
       label: about
